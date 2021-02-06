@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   /*border-box value in box-sizing property calculates height and width by 
-  by including border and padding additions to content box*/
+  including border and padding additions to content box*/
   box-sizing: border-box;
 }
 body {
