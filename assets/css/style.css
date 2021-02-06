@@ -6,16 +6,19 @@
   including border and padding additions to content box*/
   box-sizing: border-box;
 }
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   /* hexidecimal number for light-blue/teal*/
   color: #39a6b2;
 }
 /* apply styles to the header*/
+
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
 }
+
 header h1 {
   font-weight: bold;
   font-size: 36px;
@@ -24,42 +27,54 @@ header h1 {
   /*The inline display creates inline element properties for a block element*/
   display: inline;
 }
+
 header a {
   text-decoration: none;
   color: #fce138;
 }
+
 header nav {
   float: right;
   margin: 7px 0;
 }
+
 header nav ul li {
   display: inline;
-  margin: 0;
+}
+
+header nav ul li a{
+  margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
 }
+
 footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
 }
+
 footer h2 {
   display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
+
 footer div {
   float: right;
   line-height: 1.5;
   text-align: right;
 }
+
 footer a {
   color: #024e76;
 }
+
 section {
   padding: 60px;
 }
+
 /*Hero Style Start*/
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -81,13 +96,16 @@ section {
   bottom: 80px;
   right: 80px;
 }
+
 h3 {
   font-size: 24px;
   margin: 0;
 }
+
 .hero-form p {
   margin: 5px 0px 15px 0px;
 }
+
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -97,9 +115,11 @@ h3 {
   width: 100%;
   margin-bottom: 15px;
 }
+
 .hero-form label {
   margin: 0 5px;
 }
+
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
@@ -113,14 +133,7 @@ h3 {
 .intro {
   text-align: center;
 }
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0px 100px 20px 100px;
-  border-bottom: 3px solid #fce138;
-  display: inline-block;
-}
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -129,3 +142,51 @@ h3 {
   /* To center an block element with width < 100% use margin: 0 auto; */
   margin: 0 auto;
 }
+/* End of What we do */
+
+/* What You Do Section */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
+}
+
+/* blending css for section titles and heading borders*/
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* End of section titles and heading borders*/
