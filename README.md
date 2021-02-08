@@ -13,4 +13,4 @@ https://lernantino.github.io/run-buddy/
 ## Contribution
 Made with :heart: by John Patrick Banas
 
-### ©️2019 Run Buddy, Inc 
+
