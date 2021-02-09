@@ -17,6 +17,10 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  /*after removal of display:inline; in header h1 and float:right; in header nav, display:flex; creates mobile responsiveness*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -25,7 +29,7 @@ header h1 {
   color: #fce138;
   margin: 0;
   /*The inline display creates inline element properties for a block element*/
-  display: inline;
+  /* "display:inline; was deleted for the mobile responsive flexbox*/
 }
 
 header a {
@@ -34,7 +38,7 @@ header a {
 }
 
 header nav {
-  float: right;
+  /*float:right; was removed for flexbox*/
   margin: 7px 0;
 }
 
