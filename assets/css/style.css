@@ -168,9 +168,8 @@ h3 {
 /* End of Style Form and Input Fields*/
 
 /* What we do introduction section*/
-.intro {
-  text-align: center;
-}
+/*removed .intro text-align:center;*/
+
 
 .intro p {
   line-height: 1.7;
@@ -179,12 +178,12 @@ h3 {
   font-size: 20 px;
   /* To center an block element with width < 100% use margin: 0 auto; */
   margin: 0 auto;
+  text-align: center;
 }
 /* End of What we do */
 
 /* What You Do Section */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -215,10 +214,12 @@ h3 {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  /*  margin-bottom: 35px; padding: 0 100px 20px 100px; display: inline-block; removed, flexbox*/
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto 35px 0;
+  width: 50%;
 }
 
 .primary-border {
@@ -231,9 +232,7 @@ h3 {
 /* End of section titles and heading borders*/
 
 /*Trainers section*/
-.trainers {
-  text-align: center;
-}
+
 
 .trainer {
   width: 900px;
@@ -252,14 +251,6 @@ h3 {
   padding: 35px;
   float: left;
   width: 65%;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -283,7 +274,6 @@ h3 {
 
 .contact-section {
   background: #024e76;
-  text-align: center;
 }
 
 .contact-section h2 {
@@ -319,5 +309,17 @@ h3 {
 
 .contact-info a {
   color: #fce138;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
 }
 
