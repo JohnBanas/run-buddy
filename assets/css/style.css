@@ -29,6 +29,7 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   /*The inline display creates inline element properties for a block element*/
   /* "display:inline; was deleted for the mobile responsive flexbox*/
 }
@@ -56,6 +57,7 @@ header nav ul li a{
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   /*changed font-size:20px; 
   to 1.55vw or "viewport width" for flexbox*/
 }
@@ -119,6 +121,7 @@ section {
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta h2 {
@@ -131,7 +134,7 @@ section {
 /* Style Form and Input Fields*/
 .hero-form {
   color: #024e76;
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   border: solid 3px #024e76;
  /* width: 600px; position: absolute; 
@@ -139,6 +142,8 @@ section {
  removed for flexbox*/
  width: 40%;
  margin: 3.5%;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ border-radius: 15px;
 }
 
 h3 {
@@ -158,6 +163,7 @@ h3 {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .hero-form label {
@@ -170,6 +176,7 @@ h3 {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  border-radius: 10px;
 }
 /* End of Style Form and Input Fields*/
 
@@ -365,6 +372,7 @@ removed margin-bottom for flexbox*/
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -375,6 +383,7 @@ removed margin-bottom for flexbox*/
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .flex-row {
@@ -392,6 +401,7 @@ removed margin-bottom for flexbox*/
   header h1 {
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header nav ul {
@@ -402,11 +412,16 @@ removed margin-bottom for flexbox*/
 
   header nav ul li a {
     font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   footer h2, footer div {
     text-align: center;
     width: 100%;
+  }
+
+  .hero-form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .hero-form, .hero-cta {
@@ -415,6 +430,7 @@ removed margin-bottom for flexbox*/
 
   .hero-cta{
     text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .section-title {
