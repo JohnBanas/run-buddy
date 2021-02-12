@@ -6,17 +6,16 @@
 
 * {
   /* The "*" symbol affects ALL HTML elements*/
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   /*border-box value in box-sizing property calculates height and width by 
   including border and padding additions to content box*/
-  box-sizing: border-box;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  /* hexidecimal number for light-blue/teal*/
   color: var(--tertiary-color);
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* apply styles to the header*/
 
@@ -117,6 +116,7 @@ footer a {
 
 /* End of Footer*/
 
+/* Section tags*/
 section {
   padding: 60px;
 }
@@ -127,7 +127,7 @@ section {
   /*removed  background-position: center; 
   and height: 600px; for flexbox*/
   background-size: cover;
-  position: relative;
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -151,15 +151,16 @@ section {
   font-style: italic;
   font-size: 55px;
   color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /*Hero Style Ends*/
 
 /* Style Form and Input Fields*/
 .hero-form {
+  border: solid 3px var(--secondary-color);
   color: var(--secondary-color);
   background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
-  border: solid 3px var(--secondary-color);
  /* width: 600px; position: absolute; 
  bottom: 80px; right: 80px; 
  removed for flexbox*/
@@ -169,7 +170,7 @@ section {
  border-radius: 15px;
 }
 
-h3 {
+.hero-form h3 {
   font-size: 24px;
   margin: 0;
 }
@@ -510,7 +511,6 @@ removed margin-bottom for flexbox*/
   header h1 {
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header nav ul {
@@ -521,7 +521,6 @@ removed margin-bottom for flexbox*/
 
   header nav ul li a {
     font-size: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   footer h2, footer div {
@@ -529,17 +528,12 @@ removed margin-bottom for flexbox*/
     width: 100%;
   }
 
-  .hero-form {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .hero-form, .hero-cta {
+  .hero-cta, .hero-form {
     width: 100%;
   }
 
   .hero-cta{
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .section-title {
