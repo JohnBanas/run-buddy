@@ -123,17 +123,9 @@ section {
 
 /*Hero Style Start*/
 .hero {
-
-  
- 
   background-image: url("../images/hero-bg.jpg");
   /*removed  background-position: center; 
   and height: 600px; for flexbox*/
-
-  /*removed  background-position: center; 
-  and height: 600px; for flexbox*/
-  
-  
   background-size: cover;
   
   display: flex;
